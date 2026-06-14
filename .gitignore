@@ -1,0 +1,7 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+venv/
+.DS_Store
+sentiment_model.pkl  # ⚠️ هام: لا ترفع نموذج ML عبر git إذا كان كبيراً جداً
