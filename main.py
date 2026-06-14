@@ -709,15 +709,6 @@ def analyze(request: dict):
         print(f"❌ خطأ analyze: {e}")
         return generate_fallback_analysis(normalized_comments if 'normalized_comments' in locals() else [])
 
-# =========================================================
-# OPENAI ANALYSIS
-# =========================================================
-# =========================================================
-# RUN SERVER
-# ل
-# =========================================================
-# RUN SERVER
-# =========================================================
 
 if __name__ == "__main__":
     import uvicorn
