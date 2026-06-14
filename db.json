@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "مدير النظام",
+      "email": "admin@example.com",
+      "password": "$2a$10$CwzI50peRC5pLzLwQXvnq.BZuwiQp7I4c3Z/K2I3Nt19yQMJu1QPi",
+      "role": "admin",
+      "isActive": true,
+      "createdAt": "2026-06-11T00:00:00Z",
+      "lastLogin": "2026-06-13T20:51:15.542Z"
+    },
+    {
+      "id": 2,
+      "name": "nesrin djail",
+      "email": "djail.nesrin@univ-msila.dz",
+      "password": "$2a$10$P0nRvWuriEwDdyw3lcSh4ubu5dsAduC.JwYwF1tP0uQGM3wTpzADC",
+      "role": "client",
+      "subscription_plan": "Basic",
+      "subscription_status": "Active",
+      "planStartedAt": "2026-06-11T11:05:32.755Z",
+      "nextBillingDate": "2026-07-11T11:05:32.755Z",
+      "isActive": true,
+      "createdAt": "2026-06-11T11:05:32.755Z",
+      "lastLogin": "2026-06-11T11:51:17.380Z"
+    },
+    {
+      "id": 3,
+      "name": "Role Check Admin",
+      "email": "rolecheck+1781384181729@example.com",
+      "password": "$2a$10$f4oh4A5Hpgjlm2gd9qe44eU46MBPRsZQ/WFDcgBpUQUb.rUfYrc86",
+      "role": "client",
+      "subscription_plan": "Enterprise",
+      "subscription_status": "Active",
+      "planStartedAt": "2026-06-13T20:56:21.873Z",
+      "nextBillingDate": "2026-07-13T20:56:21.873Z",
+      "isActive": true,
+      "createdAt": "2026-06-13T20:56:21.873Z",
+      "lastLogin": null
+    }
+  ],
+  "videos": [],
+  "analytics": [],
+  "feedback": [],
+  "settings": {
+    "siteName": "منصة تحليل المشاعر"
+  },
+  "passwordResetTokens": [],
+  "logs": [
+    {
+      "id": 1,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:33:09.161Z",
+      "status": "success"
+    },
+    {
+      "id": 2,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:35:35.494Z",
+      "status": "success"
+    },
+    {
+      "id": 3,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:40:04.412Z",
+      "status": "success"
+    },
+    {
+      "id": 4,
+      "action": "تسجيل دخول",
+      "userId": 2,
+      "userEmail": "djail.nesrin@univ-msila.dz",
+      "timestamp": "2026-06-11T11:40:04.524Z",
+      "status": "success"
+    },
+    {
+      "id": 5,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:41:32.584Z",
+      "status": "success"
+    },
+    {
+      "id": 6,
+      "action": "تسجيل دخول",
+      "userId": 2,
+      "userEmail": "djail.nesrin@univ-msila.dz",
+      "timestamp": "2026-06-11T11:43:10.470Z",
+      "status": "success"
+    },
+    {
+      "id": 7,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:43:38.685Z",
+      "status": "success"
+    },
+    {
+      "id": 8,
+      "action": "تسجيل دخول",
+      "userId": 2,
+      "userEmail": "djail.nesrin@univ-msila.dz",
+      "timestamp": "2026-06-11T11:44:05.272Z",
+      "status": "success"
+    },
+    {
+      "id": 9,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:44:26.063Z",
+      "status": "success"
+    },
+    {
+      "id": 10,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-11T11:46:53.632Z",
+      "status": "success"
+    },
+    {
+      "id": 11,
+      "action": "تسجيل دخول",
+      "userId": 2,
+      "userEmail": "djail.nesrin@univ-msila.dz",
+      "timestamp": "2026-06-11T11:51:17.381Z",
+      "status": "success"
+    },
+    {
+      "id": 12,
+      "action": "تسجيل دخول",
+      "userId": 1,
+      "userEmail": "admin@example.com",
+      "timestamp": "2026-06-13T20:51:15.546Z",
+      "status": "success"
+    }
+  ]
+}
