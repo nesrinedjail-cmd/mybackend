@@ -716,17 +716,21 @@ def analyze(request: dict):
 # RUN SERVER
 # ل
 
+# =========================================================
+# RUN SERVER
+# =========================================================
+
 if __name__ == "__main__":
-
     import uvicorn
-
+    
+    # قراءة المنفذ من بيئة Render، أو استخدام 8001 محلياً
+    port = int(os.getenv("PORT", 8001))
+    
+    print(f"🚀 Starting server on port {port}...")
+    
     uvicorn.run(
-
         app,
-
-        host="127.0.0.1",
-
-        port=8001,
-
-
+        host="0.0.0.0",  # ⚠️ مهم جداً: يجب أن يكون 0.0.0.0 وليس 127.0.0.1
+        port=port,
+        log_level="info"
     )
